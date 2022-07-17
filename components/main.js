@@ -63,11 +63,11 @@ const Main = () => {
             the bottom of the page or through the social media icons.
           </Text>
         </Box>
-        <Box>
+        <Box bg='brand.darkBlue' pb='40px'>
           <Text
             mb='30px'
             mt='20px'
-            fontSize='lg'
+            fontSize='30px'
             fontWeight='bold'
             textAlign='center'
           >

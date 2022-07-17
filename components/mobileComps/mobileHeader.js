@@ -1,4 +1,4 @@
-import { Box, Container, Text, Stack } from "@chakra-ui/react";
+import { Box, Container, Text, Stack, Button } from "@chakra-ui/react";
 import { GoMarkGithub } from "react-icons/go";
 import { GiCat } from "react-icons/gi";
 import { motion } from "framer-motion";
@@ -24,7 +24,7 @@ const MobileHeader = () => {
           justify='space-between'
         >
           <Stack
-            spacing={6}
+            spacing={2}
             direction={"row"}
             display={"flex"}
             w='full'
@@ -36,7 +36,7 @@ const MobileHeader = () => {
               whileTap={{ scale: 1.2, rotate: -10 }}
             >
               <Text
-                mr='50px'
+                mr='5px'
                 fontSize='lg'
                 fontWeight='bold'
                 display='inline-flex'
@@ -46,7 +46,19 @@ const MobileHeader = () => {
               </Text>
             </motion.div>
 
-            <Text mr='20px'>Projects</Text>
+            <a href='http://localhost:3000/'>
+              <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
+                <a>
+                  <Button
+                    ml='20px'
+                    bg='brand.normalYellow'
+                    _hover={{ bg: "brand.prettiPurple" }}
+                  >
+                    Desktop
+                  </Button>
+                </a>
+              </motion.div>
+            </a>
             <Text mr={5}>Contacts</Text>
             <Text
               as='a'

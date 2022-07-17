@@ -14,7 +14,6 @@ import { BsGithub } from "react-icons/bs";
 
 const iconProps = {
   size: "50px",
-  marginLeft: "0px",
 };
 
 const stackProps = {

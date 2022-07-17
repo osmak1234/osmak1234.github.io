@@ -1,4 +1,4 @@
-import { Box, Container, Text, Stack } from "@chakra-ui/react";
+import { Box, Container, Text, Stack, Button } from "@chakra-ui/react";
 import { GoMarkGithub } from "react-icons/go";
 import { GiCat } from "react-icons/gi";
 import { motion } from "framer-motion";
@@ -60,6 +60,17 @@ const Header = () => {
               <GoMarkGithub />
               My Page
             </Text>
+            <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
+              <a>
+                <Button
+                  ml='20px'
+                  bg='brand.normalYellow'
+                  _hover={{ bg: "brand.prettiPurple" }}
+                >
+                  Mobile
+                </Button>
+              </a>
+            </motion.div>
           </Stack>
         </Container>
       </Box>
