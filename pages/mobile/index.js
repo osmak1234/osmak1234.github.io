@@ -1,5 +1,5 @@
-import MobileHeader from "./mobileHeader";
-import MobileMain from "./mobileMain";
+import MobileHeader from "../../components/mobileComps/mobileHeader";
+import MobileMain from "../../components/mobileComps/mobileMain";
 
 export default function Home() {
   return (
