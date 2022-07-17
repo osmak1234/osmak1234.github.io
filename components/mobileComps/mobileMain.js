@@ -1,5 +1,5 @@
 import { Box, Text, Image, Stack, Heading } from "@chakra-ui/react";
-import Section from "./mobileabout";
+import Section from "./mobileAbout";
 import MobileSkills from "./mobileSkills";
 
 const MobileMain = () => {
