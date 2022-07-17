@@ -64,11 +64,19 @@ const Main = () => {
             the bottom of the page or through the social media icons.
           </Text>
         </Box>
-        <Text mt='30px' textAlign='center' fontSize='50px'>
-          Scroll down to see my skills
-        </Text>
+        <Box>
+          <Text
+            mb='30px'
+            mt='20px'
+            fontSize='lg'
+            fontWeight='bold'
+            textAlign='center'
+          >
+            My Skills
+          </Text>
+          <Skills />
+        </Box>
       </Section>
-      <Skills />
     </>
   );
 };
