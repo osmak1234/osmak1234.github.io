@@ -28,7 +28,7 @@ const Frame = ({ children, name }) => {
         justifyContent='center'
         h='110px'
         w='110px'
-        bg='brand.prettiPurple'
+        bg='brand.darkPurple'
       >
         <Box
           justifyContent='center'

@@ -63,7 +63,7 @@ const MobileMain = () => {
             the bottom of the page or through the social media icons.
           </Text>
         </Box>
-        <Box>
+        <Box bg='brand.prettiPurple'>
           <Text
             mb='30px'
             mt='20px'

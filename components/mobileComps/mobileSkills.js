@@ -39,7 +39,7 @@ const Frame = ({ children, name }) => {
         justifyContent='center'
         h='110px'
         w='110px'
-        bg='brand.prettiPurple'
+        bg='brand.darkPurple'
       >
         <Box
           justifyContent='center'
@@ -58,7 +58,7 @@ const Frame = ({ children, name }) => {
   );
 };
 
-const MobileSection = ({ children, delay = 0 }) => (
+const MobileSection = ({ delay = 0 }) => (
   <Box m='auto' justifyContent='center'>
     <Stack {...stackProps}>
       <motion.div

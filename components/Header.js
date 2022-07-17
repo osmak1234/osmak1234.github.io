@@ -61,7 +61,7 @@ const Header = () => {
               My Page
             </Text>
             <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
-              <a>
+              <a href='http://localhost:3000/'>
                 <Button
                   ml='20px'
                   bg='brand.normalYellow'

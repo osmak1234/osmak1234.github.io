@@ -48,15 +48,13 @@ const MobileHeader = () => {
 
             <a href='http://localhost:3000/'>
               <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
-                <a>
-                  <Button
-                    ml='20px'
-                    bg='brand.normalYellow'
-                    _hover={{ bg: "brand.prettiPurple" }}
-                  >
-                    Desktop
-                  </Button>
-                </a>
+                <Button
+                  ml='20px'
+                  bg='brand.normalYellow'
+                  _hover={{ bg: "brand.prettiPurple" }}
+                >
+                  Desktop
+                </Button>
               </motion.div>
             </a>
             <Text mr={5}>Contacts</Text>
