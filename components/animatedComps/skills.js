@@ -7,6 +7,7 @@ import {
   SiFramer,
   SiJavascript,
   SiVisualstudiocode,
+  SiFirebase,
 } from "react-icons/si";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { VscTerminalPowershell } from "react-icons/vsc";
@@ -180,6 +181,28 @@ const Section = ({ delay = 0 }) => (
       >
         <Frame name='VS Code'>
           <SiVisualstudiocode {...iconProps} />
+        </Frame>
+      </motion.div>
+    </Stack>
+    <Stack
+      mb={10}
+      ml='0'
+      spacing={6}
+      direction={"row"}
+      display={"flex"}
+      w='full'
+      alignItems='center'
+      justifyContent='center'
+    >
+      <motion.div
+        initial={{ y: 0, x: 150, opacity: 0 }}
+        whileInView={{ y: 0, x: 0, opacity: 1 }}
+        whileHover={{ y: 100, opacity: 0 }}
+        viewport={{ once: false, amount: 1 }}
+        transition={{ duration: 0.5, delay }}
+      >
+        <Frame name='Firebase'>
+          <SiFirebase {...iconProps} />
         </Frame>
       </motion.div>
     </Stack>

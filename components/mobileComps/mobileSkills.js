@@ -168,6 +168,16 @@ const MobileSection = ({ delay = 0 }) => (
           <SiVisualstudiocode {...iconProps} />
         </Frame>
       </motion.div>
+      <motion.div
+        initial={{ y: 0, x: 150, opacity: 0 }}
+        whileInView={{ y: 0, x: 0, opacity: 1 }}
+        viewport={{ once: false, amount: 1 }}
+        transition={{ duration: 0.5, delay }}
+      >
+        <Frame name='Firebase'>
+          <SiFirebase {...iconProps} />
+        </Frame>
+      </motion.div>
     </Stack>
   </Box>
 );
