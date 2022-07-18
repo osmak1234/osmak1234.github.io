@@ -61,15 +61,19 @@ const Header = () => {
               My Page
             </Text>
             <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
-              <a href='http://localhost:3000/'>
-                <Button
-                  ml='20px'
-                  bg='brand.normalYellow'
-                  _hover={{ bg: "brand.prettiPurple" }}
-                >
-                  Mobile
-                </Button>
-              </a>
+              <Button
+                ml='20px'
+                bg='brand.normalYellow'
+                _hover={{ bg: "brand.prettiPurple" }}
+                size='sm'
+                onClick={() => {
+                  alert(
+                    "Link will be available soon, the app is still in development"
+                  );
+                }}
+              >
+                AnonTelly
+              </Button>
             </motion.div>
           </Stack>
         </Container>

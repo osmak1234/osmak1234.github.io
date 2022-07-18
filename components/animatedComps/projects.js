@@ -18,11 +18,11 @@ const Projects = () => {
         <Stack direction='column'>
           <Box w='300px'>
             <motion.div
-              initial={{ y: 0, x: -20, opacity: 0 }}
-              whileInView={{ y: 0, x: 0, opacity: 1 }}
-              viewport={{ once: false, amount: 0.2 }}
+              initial={{ y: 0, x: 800, opacity: 0 }}
+              whileInView={{ y: 0, x: 100, opacity: 1 }}
+              viewport={{ once: false, amount: 0.5 }}
               whileHover={{ scale: 1.1 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 2 }}
             >
               <Text mb='20px' fontWeight='bold' fontSize='30px'>
                 AnonTelly
@@ -33,7 +33,8 @@ const Projects = () => {
               </Text>
               <Text>
                 AnonTelly is a web application that allows users to anonymously
-                share their stories and fantasies.
+                share their stories. (currently in development, link will be
+                added on realease)
               </Text>
             </motion.div>
           </Box>

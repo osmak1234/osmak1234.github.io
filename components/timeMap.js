@@ -20,7 +20,7 @@ const TimeMap = () => {
     "2022 / Could start working for your company",
 
     "2021 / Started Highschool in Pisek",
-    " 2006 / I was born in Czech Budejovice",
+    " 2006 / I was born in Czech Krumlov",
   ];
   const [text, setText] = useState(timeArray[0]);
 
@@ -61,6 +61,7 @@ const TimeMap = () => {
             w='400px'
             p='16px'
             bg='brand.prettiPurple'
+            borderRadius='10px'
           >
             <Text>{text}</Text>
           </Box>
