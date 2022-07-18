@@ -63,7 +63,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: -100, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 2, rotate: 0, x: -200, opacity: 0 }}
+        whileHover={{ scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -75,7 +75,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: -50, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ y: 90, x: -90 }}
+        whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -87,7 +87,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: -50, x: 0, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ y: -90 }}
+        whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -98,7 +98,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: 200, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ y: 90, x: 90 }}
+        whileHover={{scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -109,7 +109,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: 150, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 2, rotate: 0, x: 200, opacity: 0 }}
+        whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -131,7 +131,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: -200, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 2, rotate: 0, x: -200, opacity: 0 }}
+        whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -142,7 +142,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: -150, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 1.2, rotate: 1060 }}
+        whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -153,7 +153,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 50, x: 0, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 0.5, rotate: 6360 }}
+        whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -164,7 +164,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: 200, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 1.2, rotate: 1060 }}
+        whileHover={{ scale: 1.2, }}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -175,7 +175,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: 150, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 2, rotate: 0, x: 200, opacity: 0 }}
+        whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
@@ -197,7 +197,7 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: 150, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ y: 100, opacity: 0 }}
+        whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
         transition={{ duration: 0.5, delay }}
       >
