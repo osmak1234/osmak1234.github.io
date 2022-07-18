@@ -59,8 +59,8 @@ const Main = () => {
           <Text color='white' w='400px' m='auto'>
             Im currently a highschool student learning web development on the
             side. Currently in Czech republic, but I would love to travel abroad
-            some day. If you want anything you can can contact me in the form at
-            the bottom of the page or through the social media icons.
+            some day. If you want anything you can contact me in the form at
+            the bottom of the page.
           </Text>
         </Box>
         <Box bg='brand.prettiPurple' mt='20px' pt='20px' pb='20px'>
