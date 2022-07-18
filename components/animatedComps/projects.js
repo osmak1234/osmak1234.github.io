@@ -15,6 +15,9 @@ const Projects = () => {
   return (
     <>
       <Box bg='brand.prettiPurple' p='40px'>
+    <Text mt='20px' fontWeight='bold' fontSize='40px'>
+                Descrisption
+              </Text>
         <Stack direction='column'>
           <Box w='300px'>
             <motion.div
@@ -33,7 +36,7 @@ const Projects = () => {
               </Text>
               <Text>
                 AnonTelly is a web application that allows users to anonymously
-                share their stories and fantasies.
+                share their stories and fantasies.(link will be added after release)
               </Text>
             </motion.div>
           </Box>
