@@ -22,7 +22,7 @@ const TimeMap = () => {
     "2021 / Started Highschool in Pisek",
     " 2006 / I was born in Czech Krumlov",
   ];
-  const [text, setText] = useState(timeArray[0]);
+  const [text, setText] = useState(timeArray[2]);
 
   return (
     <>
