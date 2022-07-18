@@ -15,8 +15,8 @@ const Projects = () => {
   return (
     <>
       <Box bg='brand.prettiPurple' p='40px'>
-    <Text mt='20px' fontWeight='bold' fontSize='40px'>
-                Descrisption
+    <Text mt='20px' fontWeight='bold' fontSize='30px' textAlign='center'>
+                My projects
               </Text>
         <Stack direction='column'>
           <Box w='300px'>
