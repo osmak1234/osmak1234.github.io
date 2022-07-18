@@ -10,7 +10,7 @@ import {
 
 import { collection, addDoc, getDocs } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { app, database } from "../pages/firebase";
+import { database } from "./firebase";
 
 const ContactSection = () => {
   const [email, setEmail] = useState("");
