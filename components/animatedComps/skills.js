@@ -77,7 +77,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='Next.js'>
           <SiNextdotjs {...iconProps} />
@@ -89,7 +89,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='React'>
           <FaReact {...iconProps} />
@@ -100,7 +100,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='Node.js'>
           <FaNodeJs {...iconProps} />
@@ -111,7 +111,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='JavaScript'>
           <SiJavascript {...iconProps} />
@@ -133,7 +133,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{scale: 1.2}}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='CSS'>
           <SiCss3 {...iconProps} />
@@ -144,7 +144,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='Framer'>
           <SiFramer {...iconProps} />
@@ -155,7 +155,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration:1, delay }}
       >
         <Frame name='Github'>
           <BsGithub {...iconProps} />
@@ -166,7 +166,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{ scale: 1.2, }}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='PowerShell'>
           <VscTerminalPowershell {...iconProps} />
@@ -177,7 +177,7 @@ const Section = ({ delay = 0 }) => (
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{ scale: 1.2 }}
         viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 0.5, delay }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='VS Code'>
           <SiVisualstudiocode {...iconProps} />
