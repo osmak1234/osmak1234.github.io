@@ -60,7 +60,7 @@ const Header = () => {
               <GoMarkGithub />
               My Page
             </Text>
-            <motion.div whileHover={{ scale: 1.2, rotate: 360 }}>
+            <motion.div whileHover={{ scale: 1.2, rotate: -20 }}>
               <Button
                 ml='20px'
                 bg='brand.normalYellow'
