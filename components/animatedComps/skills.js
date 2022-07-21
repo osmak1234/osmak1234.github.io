@@ -61,10 +61,10 @@ const Section = ({ delay = 0 }) => (
       justifyContent='center'
     >
       <motion.div
-        initial={{ y: 0, x: -100, opacity: 0 }}
+        initial={{ y: 0, x: -50, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 1.2}}
-        viewport={{ once: false, amount: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 0.5, delay }}
       >
         <Frame name='HTML'>
@@ -75,8 +75,8 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: 0, x: -50, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{scale: 1.2}}
-        viewport={{ once: false, amount: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, delay }}
       >
         <Frame name='Next.js'>
@@ -87,34 +87,12 @@ const Section = ({ delay = 0 }) => (
       <motion.div
         initial={{ y: -50, x: 0, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{scale: 1.2}}
-        viewport={{ once: false, amount: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, delay }}
       >
         <Frame name='React'>
           <FaReact {...iconProps} />
-        </Frame>
-      </motion.div>
-      <motion.div
-        initial={{ y: 0, x: 200, opacity: 0 }}
-        whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{scale: 1.2 }}
-        viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 1, delay }}
-      >
-        <Frame name='Node.js'>
-          <FaNodeJs {...iconProps} />
-        </Frame>
-      </motion.div>
-      <motion.div
-        initial={{ y: 0, x: 150, opacity: 0 }}
-        whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{scale: 1.2}}
-        viewport={{ once: false, amount: 1 }}
-        transition={{ duration: 1, delay }}
-      >
-        <Frame name='JavaScript'>
-          <SiJavascript {...iconProps} />
         </Frame>
       </motion.div>
     </Stack>
@@ -129,21 +107,55 @@ const Section = ({ delay = 0 }) => (
       justifyContent='center'
     >
       <motion.div
-        initial={{ y: 0, x: -200, opacity: 0 }}
+        initial={{ y: 0, x: 50, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{scale: 1.2}}
-        viewport={{ once: false, amount: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 1, delay }}
+      >
+        <Frame name='Node.js'>
+          <FaNodeJs {...iconProps} />
+        </Frame>
+      </motion.div>
+      <motion.div
+        initial={{ y: 0, x: 50, opacity: 0 }}
+        whileInView={{ y: 0, x: 0, opacity: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 1, delay }}
+      >
+        <Frame name='JavaScript'>
+          <SiJavascript {...iconProps} />
+        </Frame>
+      </motion.div>
+
+      <motion.div
+        initial={{ y: 0, x: -50, opacity: 0 }}
+        whileInView={{ y: 0, x: 0, opacity: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, delay }}
       >
         <Frame name='CSS'>
           <SiCss3 {...iconProps} />
         </Frame>
       </motion.div>
+    </Stack>
+    <Stack
+      mb={10}
+      ml='0'
+      spacing={6}
+      direction={"row"}
+      display={"flex"}
+      w='full'
+      alignItems='center'
+      justifyContent='center'
+    >
       <motion.div
-        initial={{ y: 0, x: -150, opacity: 0 }}
+        initial={{ y: 0, x: -50, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{ scale: 1.2 }}
-        viewport={{ once: false, amount: 1 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, delay }}
       >
         <Frame name='Framer'>
@@ -154,24 +166,35 @@ const Section = ({ delay = 0 }) => (
         initial={{ y: 50, x: 0, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
         whileHover={{ scale: 1.2 }}
-        viewport={{ once: false, amount: 1 }}
-        transition={{ duration:1, delay }}
+        viewport={{ once: false, amount: 0.2 }}
+        transition={{ duration: 1, delay }}
       >
         <Frame name='Github'>
           <BsGithub {...iconProps} />
         </Frame>
       </motion.div>
       <motion.div
-        initial={{ y: 0, x: 200, opacity: 0 }}
+        initial={{ y: 0, x: 50, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
-        whileHover={{ scale: 1.2, }}
-        viewport={{ once: false, amount: 1 }}
+        whileHover={{ scale: 1.2 }}
+        viewport={{ once: false, amount: 0.2 }}
         transition={{ duration: 1, delay }}
       >
         <Frame name='PowerShell'>
           <VscTerminalPowershell {...iconProps} />
         </Frame>
       </motion.div>
+    </Stack>
+    <Stack
+      mb={10}
+      ml='0'
+      spacing={6}
+      direction={"row"}
+      display={"flex"}
+      w='full'
+      alignItems='center'
+      justifyContent='center'
+    >
       <motion.div
         initial={{ y: 0, x: 150, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
@@ -183,17 +206,7 @@ const Section = ({ delay = 0 }) => (
           <SiVisualstudiocode {...iconProps} />
         </Frame>
       </motion.div>
-    </Stack>
-    <Stack
-      mb={10}
-      ml='0'
-      spacing={6}
-      direction={"row"}
-      display={"flex"}
-      w='full'
-      alignItems='center'
-      justifyContent='center'
-    >
+
       <motion.div
         initial={{ y: 0, x: 150, opacity: 0 }}
         whileInView={{ y: 0, x: 0, opacity: 1 }}
