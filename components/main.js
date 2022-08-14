@@ -38,6 +38,7 @@ const Main = () => {
             </Text>
             <Text>Web developer/student</Text>
           </Stack>
+</Stack>
 
           
 
