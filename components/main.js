@@ -39,13 +39,7 @@ const Main = () => {
             <Text>Web developer/student</Text>
           </Stack>
 
-          <Image
-            m='auto'
-            rounded='full'
-            w='100px'
-            src='images/profile.png'
-          ></Image>
-        </Stack>
+          
 
         <Box>
           <Heading
