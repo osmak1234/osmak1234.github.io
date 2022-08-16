@@ -18,8 +18,8 @@ const Projects = () => {
         <Stack direction='column'>
           <Box w='300px'>
             <motion.div
-              initial={{ y: 0, x: 800, opacity: 0 }}
-              whileInView={{ y: 0, x: 100, opacity: 1 }}
+              initial={{ y: 0, x: 0, opacity: 0 }}
+              whileInView={{ y: 0, x: 0, opacity: 1 }}
               viewport={{ once: false, amount: 0.5 }}
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 2 }}

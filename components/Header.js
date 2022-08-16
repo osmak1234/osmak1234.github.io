@@ -24,7 +24,7 @@ const Header = () => {
           justify='space-between'
         >
           <Stack
-            spacing={6}
+            spacing={1}
             direction={"row"}
             display={"flex"}
             w='full'
@@ -60,21 +60,6 @@ const Header = () => {
               <GoMarkGithub />
               My Page
             </Text>
-            <motion.div whileHover={{ scale: 1.2, rotate: -20 }}>
-              <Button
-                ml='20px'
-                bg='brand.normalYellow'
-                _hover={{ bg: "brand.prettiPurple" }}
-                size='sm'
-                onClick={() => {
-                  alert(
-                    "Link will be available soon, the app is still in development"
-                  );
-                }}
-              >
-                AnonTelly
-              </Button>
-            </motion.div>
           </Stack>
         </Container>
       </Box>
