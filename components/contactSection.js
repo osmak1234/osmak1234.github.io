@@ -18,9 +18,9 @@ const ContactSection = () => {
           src='https://docs.google.com/forms/d/e/1FAIpQLSccA5lqJsVq_yLcDzHUQf7vVw3KhBAJ4_94ob5cEec6KXr4Wg/viewform?embedded=true'
           width='100%'
           height='100%'
-          frameborder='0'
-          marginheight='50'
-          marginwidth='auto'
+          frameBorder='0'
+          marginHeight='50'
+          marginHidth='auto'
         >
           Loading...
         </iframe>
