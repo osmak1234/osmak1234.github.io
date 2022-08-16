@@ -20,7 +20,7 @@ const ContactSection = () => {
           height='100%'
           frameBorder='0'
           marginHeight='50'
-          marginHidth='auto'
+          marginWidth='auto'
         >
           Loading...
         </iframe>
