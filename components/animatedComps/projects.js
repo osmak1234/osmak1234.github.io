@@ -35,7 +35,7 @@ const Projects = () => {
               <Text>
                 Pokeswipe is a tinder like app for pokemon, after users swipe database saves all the data, and then you can view the results on a scoreboard.
               </Text>
-                <Link href="https://pokeswipe.vercel.app/">Link to the app <Link/>
+                <Link href="https://pokeswipe.vercel.app/">Link to the app </Link>
             </motion.div>
           </Box>
         </Stack>
