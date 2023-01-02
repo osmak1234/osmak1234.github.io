@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
 import { motion } from "framer-motion";
+import Link from "next/link"
 
 const Projects = () => {
   return (
@@ -25,17 +26,16 @@ const Projects = () => {
               transition={{ duration: 2 }}
             >
               <Text mb='20px' fontWeight='bold' fontSize='30px'>
-                AnonTelly
+                Pokeswipe
               </Text>
               <BsFillJournalBookmarkFill size='300px' />
               <Text mt='20px' fontWeight='bold'>
                 Descrisption
               </Text>
               <Text>
-                AnonTelly is a web application that allows users to anonymously
-                share their stories. (currently in development, link will be
-                added on realease)
+                Pokeswipe is a tinder like app for pokemon, after users swipe database saves all the data, and then you can view the results on a scoreboard.
               </Text>
+                <Link href="https://pokeswipe.vercel.app/">Link to the app <Link/>
             </motion.div>
           </Box>
         </Stack>
