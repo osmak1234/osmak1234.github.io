@@ -26,6 +26,7 @@ const Projects = () => {
               transition={{ duration: 2 }}
             >
               <Link href="https://pokeswipe.vercel.app/">
+                <>
               <Text mb='20px' fontWeight='bold' fontSize='30px'>
                 Pokeswipe
               </Text>
@@ -36,6 +37,7 @@ const Projects = () => {
               <Text>
                 Pokeswipe is a tinder like app for pokemon, after users swipe database saves all the data, and then you can view the results on a scoreboard.
               </Text>
+</>
               </Link>
             </motion.div>
           </Box>
